@@ -1,0 +1,37 @@
+.mom {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.one {
+    width: 190px;
+    height: 100px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.cal {
+    display: grid;
+    place-items: center;
+    /* Centers both horizontally and vertically */
+
+    width: 300px;
+    height: 400px;
+
+}
+
+
+.sub-cal {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
